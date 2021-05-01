@@ -1,0 +1,64 @@
+
+I. Program to measure the area and the mean velocity together:
+
+1. To run the video and area calculation + audio and mean freq calc,
+D:\2020 compre time -Present\Obj 2 Ultrasound exp\0000 Ultrasouund reccent _ using versalab Z cLCULtion\Aug20 pgm\for_dft_mean.m
+
+2. Open the code and change the 50 thresold as needed.
+
+3. Now run the code opening the : D:\2020 compre time -Present\Obj 2 Ultrasound exp
+4. Choose:
+
+a. CMCdaq video recording:
+File Locn:
+D:\2020 compre time -Present\Obj 2 Ultrasound exp\0000 Ultrasouund reccent _ using versalab Z cLCULtion\Aug20 pgm\working test media\2020d1___0287e4_A00.avi\2020d1___0287e4_A00 
+
+
+
+b. Audio :recorded channel 1 from CMCdaq3 , filter LP 125Hz + 50Hz notch:
+File Locn
+D:\2020 compre time -Present\Obj 2 Ultrasound exp\0000 Ultrasouund reccent _ using versalab Z cLCULtion\Aug20 pgm\working test media\2020d1___0287e4_A00.avi\pos1
+
+only one channel should be there and hecne two columns(one fore time and other for audio)
+
+5. If needed chnage the frame number as required.
+It finally will generate the folder with the video filename with the frames and the detected area.
+THis is generated in the folder that is chosen intially.
+
+II. To calc impedance in freq domain
+
+Dividing the pressure in freq dmn and flow in freq domain.
+
+Run impedance.m from 
+D:\2020 compre time -Present\Obj 2 Ultrasound exp\0000 Ultrasouund reccent _ using versalab Z cLCULtion\Aug20 pgm\00000 correct impedance calc
+
+Chhose:
+
+a. video from D:\2020 compre time -Present\Obj 2 Ultrasound exp\0000 Ultrasouund reccent _ using versalab Z cLCULtion\Aug20 pgm\working test media\2020d1___0287e4_A00.avi
+
+NB: video is not used here as we don't need any frame by frame calculation of the impedance. We already got frame by frame (vol flow). Pressure is sepaarately from another channel.
+
+b. choose impedance.xt from D:\2020 compre time -Present\Obj 2 Ultrasound exp\0000 Ultrasouund reccent _ using versalab Z cLCULtion\Aug20 pgm\working test media\2020d1___0287e4_A00.avi
+c. choose pressure.txt from D:\2020 compre time -Present\Obj 2 Ultrasound exp\0000 Ultrasouund reccent _ using versalab Z cLCULtion\Aug20 pgm\working test media\2020d1___0287e4_A00.avi
+
+impedance.txt has 4 columns of which first is time and second is volume flow (vol flow is back calculated from out I program - excel outputs of area and mean velocity).
+pressure.txt has one pressure column only. 
+Note: video fps 30
+
+Note:
+ar = data1(:,2); %#vol flow, 10 Hz 
+pr= data2(:,1);  %#second excel with only pressure, more smaples 1KHz file used
+
+data1 is impedance.txt and data2 is pressure.txt
+
+
+
+
+
+
+
+
+
+
+
+
