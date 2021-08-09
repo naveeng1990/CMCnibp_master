@@ -19,4 +19,4 @@ for i = 1: data.video.NumberOfFrames
 %    imshow(data.frames{i});
 end
 %%
-save('VideoFrames_fq11.mat','data');
+save('VideoFrames_lab.mat','data');

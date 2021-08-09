@@ -16,7 +16,7 @@ opFolder = fullfile(cd,fileName);
 % load('VideoFrames.mat');
 % load('VideoFramesDec.mat'); this was used 
 % load('VideoFrames_raja12.mat');
-load('VideoFrames_fq11.mat');
+load('VideoFrames_lab.mat');
 totalFrames = video.NumberOfFrames
 % totalFrames= 82
 for i = 1:totalFrames
