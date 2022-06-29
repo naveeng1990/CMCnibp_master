@@ -1,0 +1,1986 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\MPLAB.production.o
+cinit CODE 0 13E6C 13E6C 18 1
+text0 CODE 0 12516 12516 220 1
+text1 CODE 0 13214 13214 12C 1
+text2 CODE 0 12AAA 12AAA 1A6 1
+text3 CODE 0 10000 10000 DAE 1
+text4 CODE 0 130C0 130C0 154 1
+text5 CODE 0 12230 12230 2E6 1
+text6 CODE 0 13D44 13D44 3C 1
+text7 CODE 0 13C74 13C74 46 1
+text8 CODE 0 13DB2 13DB2 28 1
+text9 CODE 0 1393C 1393C 76 1
+text10 CODE 0 13E9A 13E9A 14 1
+text11 CODE 0 13658 13658 C8 1
+text12 CODE 0 12DEC 12DEC 176 1
+text13 CODE 0 1344E 1344E 106 1
+text14 CODE 0 13BC6 13BC6 58 1
+text15 CODE 0 13D00 13D00 44 1
+text16 CODE 0 13340 13340 10E 1
+text17 CODE 0 13A96 13A96 6A 1
+text18 CODE 0 13A26 13A26 70 1
+text19 CODE 0 137E6 137E6 B2 1
+text20 CODE 0 13C1E 13C1E 56 1
+text21 CODE 0 12F62 12F62 15E 1
+text22 CODE 0 13720 13720 C6 1
+text23 CODE 0 13E02 13E02 26 1
+text24 CODE 0 139B2 139B2 74 1
+text25 CODE 0 10DAE 10DAE 504 1
+text26 CODE 0 13D80 13D80 32 1
+text27 CODE 0 11F36 11F36 2FA 1
+text28 CODE 0 13DDA 13DDA 28 1
+text29 CODE 0 12C50 12C50 19C 1
+text30 CODE 0 13E4E 13E4E 1E 1
+text31 CODE 0 13EBE 13EBE C 1
+text32 CODE 0 13ECA 13ECA 8 1
+text33 CODE 0 13ED2 13ED2 8 1
+text34 CODE 0 13E28 13E28 26 1
+text35 CODE 0 13B6A 13B6A 5C 1
+text36 CODE 0 13898 13898 A4 1
+text37 CODE 0 13E84 13E84 16 1
+text38 CODE 0 12736 12736 1C0 1
+text39 CODE 0 13CBA 13CBA 46 1
+text40 CODE 0 112B2 112B2 4C0 1
+text41 CODE 0 11772 11772 42A 1
+text42 CODE 0 13554 13554 104 1
+text43 CODE 0 11B9C 11B9C 39A 1
+text44 CODE 0 13B00 13B00 6A 1
+text45 CODE 0 128F6 128F6 1B4 1
+text46 CODE 0 13EAE 13EAE 10 1
+cstackCOMRAM COMRAM 1 1 1 5E 1
+bssBANK0 BANK0 1 60 60 2F 1
+bssCOMRAM COMRAM 1 5F 5F 1 1
+mediumconst MEDIUMCONST 0 F41C F41C BE4 1
+$C:\Users\Can\AppData\Local\Temp\s890.o
+init CODE 0 0 0 4 1
+config CONFIG 0 1FFF8 1FFF8 8 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 8F-EAF 1
+SFR EB0-FFF 1
+BANK0 8F-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-F41B 1
+CONST 13EDA-1FFF7 1
+STACK 8F-EAF 1
+SMALLCONST F00-F41B 1
+SMALLCONST 13EDA-1FFF7 1
+CODE 4-F41B 1
+CODE 13EDA-1FFF7 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EAF 1
+BIGRAM 8F-EAF 1
+MEDIUMCONST F00-F41B 1
+MEDIUMCONST 13EDA-1FFF7 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\MPLAB.production.o
+13EAE text46 CODE >15:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13EAE text46 CODE >17:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13EB0 text46 CODE >18:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13EB4 text46 CODE >19:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13EBA text46 CODE >20:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13EBC text46 CODE >21:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+128F6 text45 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+128F8 text45 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12916 text45 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12948 text45 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+1294C text45 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+1294C text45 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+1295C text45 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12972 text45 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12986 text45 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+1298A text45 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+1298E text45 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12990 text45 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+1299A text45 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+129CC text45 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+129CE text45 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+129DA text45 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+129E4 text45 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+129E4 text45 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12A16 text45 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12A18 text45 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12A22 text45 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12A40 text45 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12A4E text45 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12A50 text45 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12A54 text45 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12A78 text45 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12A96 text45 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12A98 text45 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+12AA8 text45 CODE >44:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+13B00 text44 CODE >23:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13B02 text44 CODE >25:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13B06 text44 CODE >26:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13B0E text44 CODE >27:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13B1C text44 CODE >28:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13B1E text44 CODE >29:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13B2C text44 CODE >30:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13B68 text44 CODE >31:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+11B9C text43 CODE >11:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11B9C text43 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11BA2 text43 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11BA8 text43 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11BB6 text43 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11BB8 text43 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11BC8 text43 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11BD8 text43 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11BE8 text43 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11BEA text43 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11BEE text43 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11BF2 text43 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C02 text43 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C08 text43 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C0E text43 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C1C text43 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C1E text43 CODE >56:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C2E text43 CODE >58:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C3E text43 CODE >60:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C4E text43 CODE >63:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C50 text43 CODE >65:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C54 text43 CODE >66:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C58 text43 CODE >69:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C68 text43 CODE >75:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C7E text43 CODE >76:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C8E text43 CODE >77:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C96 text43 CODE >78:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11C9A text43 CODE >79:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11CAE text43 CODE >83:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11CBE text43 CODE >84:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11CBE text43 CODE >85:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11CD2 text43 CODE >89:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11CEC text43 CODE >92:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11CFC text43 CODE >93:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D0C text43 CODE >94:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D1C text43 CODE >96:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D20 text43 CODE >97:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D24 text43 CODE >100:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D34 text43 CODE >101:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D3E text43 CODE >102:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D48 text43 CODE >103:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D56 text43 CODE >104:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D58 text43 CODE >105:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D58 text43 CODE >106:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D62 text43 CODE >112:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D80 text43 CODE >115:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D82 text43 CODE >116:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D92 text43 CODE >118:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D94 text43 CODE >97:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11D94 text43 CODE >119:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DA4 text43 CODE >122:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DBA text43 CODE >123:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DC0 text43 CODE >128:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DCA text43 CODE >129:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DD8 text43 CODE >130:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DDA text43 CODE >131:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DDA text43 CODE >132:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DE4 text43 CODE >133:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DEA text43 CODE >127:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DF8 text43 CODE >139:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11DFC text43 CODE >140:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11E0A text43 CODE >141:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11E38 text43 CODE >142:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11E3C text43 CODE >143:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11E40 text43 CODE >144:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11E40 text43 CODE >145:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11E52 text43 CODE >149:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11E52 text43 CODE >150:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11E62 text43 CODE >151:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11E6E text43 CODE >152:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11E7C text43 CODE >153:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11EA6 text43 CODE >154:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11EAA text43 CODE >159:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11EC4 text43 CODE >160:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11ECA text43 CODE >161:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11EDA text43 CODE >165:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11EF4 text43 CODE >166:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11EFC text43 CODE >167:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11F0C text43 CODE >169:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11F10 text43 CODE >173:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11F14 text43 CODE >175:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11F22 text43 CODE >176:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11F24 text43 CODE >177:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11F28 text43 CODE >180:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11F2A text43 CODE >182:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+11F34 text43 CODE >185:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+13554 text42 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+13554 text42 CODE >7:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+13582 text42 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+13592 text42 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+135C0 text42 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+135D0 text42 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+135DE text42 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+135F0 text42 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+135FE text42 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+13610 text42 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+13620 text42 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+13630 text42 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+13656 text42 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+11772 text41 CODE >8:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11772 text41 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11778 text41 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+1177E text41 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+1178C text41 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+1178E text41 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+1179E text41 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+117AE text41 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+117BE text41 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+117C0 text41 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+117C4 text41 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+117D4 text41 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+117DA text41 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+117E0 text41 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+117EE text41 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+117F0 text41 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11800 text41 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11810 text41 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11820 text41 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11822 text41 CODE >54:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11826 text41 CODE >57:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11836 text41 CODE >58:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11836 text41 CODE >65:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11856 text41 CODE >66:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+1186A text41 CODE >95:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11876 text41 CODE >96:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11880 text41 CODE >97:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+1188A text41 CODE >98:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11896 text41 CODE >99:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+118A2 text41 CODE >100:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+118AE text41 CODE >101:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+118BA text41 CODE >102:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+118C6 text41 CODE >103:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+118D2 text41 CODE >104:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+118E0 text41 CODE >105:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+118EC text41 CODE >106:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+118FC text41 CODE >107:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11908 text41 CODE >108:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11918 text41 CODE >109:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11926 text41 CODE >110:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11932 text41 CODE >111:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11942 text41 CODE >112:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+1194E text41 CODE >113:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+1195E text41 CODE >114:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+1196A text41 CODE >115:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+1197A text41 CODE >116:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11986 text41 CODE >117:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+119B0 text41 CODE >145:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+119E6 text41 CODE >146:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+119F4 text41 CODE >149:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A0E text41 CODE >152:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A12 text41 CODE >153:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A1C text41 CODE >154:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A2A text41 CODE >155:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A2C text41 CODE >156:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A2C text41 CODE >157:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A36 text41 CODE >158:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A3C text41 CODE >152:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A4A text41 CODE >163:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A4E text41 CODE >164:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A5C text41 CODE >165:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A8A text41 CODE >166:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A8E text41 CODE >167:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A92 text41 CODE >168:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11A92 text41 CODE >169:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11AA4 text41 CODE >173:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11AA4 text41 CODE >174:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11AB4 text41 CODE >175:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11AC0 text41 CODE >176:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11ACE text41 CODE >177:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11AF8 text41 CODE >178:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11AFC text41 CODE >183:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B16 text41 CODE >184:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B26 text41 CODE >185:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B2A text41 CODE >187:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B44 text41 CODE >188:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B54 text41 CODE >190:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B58 text41 CODE >191:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B5C text41 CODE >192:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B5C text41 CODE >194:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B60 text41 CODE >195:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B70 text41 CODE >196:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B7E text41 CODE >197:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B80 text41 CODE >199:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B86 text41 CODE >201:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B8A text41 CODE >203:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+11B9A text41 CODE >205:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+112B2 text40 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+112B2 text40 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+112B8 text40 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+112BE text40 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+112CC text40 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+112CE text40 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+112DE text40 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+112EE text40 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+112FE text40 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11300 text40 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11304 text40 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11308 text40 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11318 text40 CODE >44:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1131E text40 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11330 text40 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11332 text40 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11338 text40 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11346 text40 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11348 text40 CODE >55:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11358 text40 CODE >57:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11368 text40 CODE >59:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11378 text40 CODE >62:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1137A text40 CODE >64:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1137E text40 CODE >65:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11382 text40 CODE >68:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11392 text40 CODE >75:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113A4 text40 CODE >77:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113B2 text40 CODE >78:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113B6 text40 CODE >81:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113BA text40 CODE >82:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113BE text40 CODE >83:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113C2 text40 CODE >84:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113C6 text40 CODE >85:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113CA text40 CODE >86:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113CE text40 CODE >87:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113D2 text40 CODE >88:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113D6 text40 CODE >89:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113DA text40 CODE >90:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113DE text40 CODE >91:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113E2 text40 CODE >92:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113E6 text40 CODE >93:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113EA text40 CODE >94:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113EE text40 CODE >95:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113F2 text40 CODE >98:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+113F6 text40 CODE >100:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11420 text40 CODE >101:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1143C text40 CODE >102:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1144C text40 CODE >103:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11450 text40 CODE >104:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11454 text40 CODE >106:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11454 text40 CODE >109:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11462 text40 CODE >110:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1146A text40 CODE >111:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1146E text40 CODE >113:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11472 text40 CODE >115:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11480 text40 CODE >116:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11482 text40 CODE >118:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1148C text40 CODE >119:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1148E text40 CODE >106:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1148E text40 CODE >120:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+114A0 text40 CODE >121:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+114A0 text40 CODE >124:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+114AE text40 CODE >127:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+114BE text40 CODE >128:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+114D2 text40 CODE >132:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+114E2 text40 CODE >134:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+114F0 text40 CODE >135:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+114FE text40 CODE >136:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11506 text40 CODE >137:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1150A text40 CODE >139:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1150E text40 CODE >141:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1151C text40 CODE >142:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1151E text40 CODE >144:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11528 text40 CODE >145:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1152E text40 CODE >153:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11554 text40 CODE >154:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11584 text40 CODE >155:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11588 text40 CODE >156:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1158A text40 CODE >157:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1159A text40 CODE >158:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+115AA text40 CODE >162:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+115BA text40 CODE >163:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+115BA text40 CODE >166:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+115E0 text40 CODE >167:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+115F4 text40 CODE >172:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+115FE text40 CODE >173:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1160C text40 CODE >174:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1160E text40 CODE >176:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1161C text40 CODE >177:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11620 text40 CODE >178:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11624 text40 CODE >180:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11628 text40 CODE >182:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11638 text40 CODE >183:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1163A text40 CODE >171:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11648 text40 CODE >192:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1164C text40 CODE >193:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1165A text40 CODE >194:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11670 text40 CODE >195:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11674 text40 CODE >196:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11678 text40 CODE >197:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11678 text40 CODE >198:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1168A text40 CODE >202:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1168A text40 CODE >203:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1169A text40 CODE >204:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+116A6 text40 CODE >205:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+116B4 text40 CODE >206:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+116DE text40 CODE >207:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+116EE text40 CODE >208:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+116F0 text40 CODE >215:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11710 text40 CODE >216:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11720 text40 CODE >218:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11730 text40 CODE >219:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11734 text40 CODE >225:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11742 text40 CODE >226:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11744 text40 CODE >227:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11748 text40 CODE >230:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1174A text40 CODE >232:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11750 text40 CODE >233:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+1175E text40 CODE >234:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11760 text40 CODE >236:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+11770 text40 CODE >237:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+13CBA text39 CODE >245:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+13CBA text39 CODE >248:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+13CCA text39 CODE >249:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+13CFE text39 CODE >250:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+12736 text38 CODE >43:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12736 text38 CODE >45:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+1274C text38 CODE >46:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12780 text38 CODE >47:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+127B4 text38 CODE >48:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+127E8 text38 CODE >49:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+1281C text38 CODE >50:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12850 text38 CODE >51:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12884 text38 CODE >52:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+128A2 text38 CODE >53:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+128E4 text38 CODE >54:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+128F4 text38 CODE >55:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13E84 text37 CODE >57:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13E84 text37 CODE >59:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13E98 text37 CODE >61:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13898 text36 CODE >7:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+13898 text36 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+138A8 text36 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+138BE text36 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+138C2 text36 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+138C6 text36 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+138D0 text36 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+138D2 text36 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+138E0 text36 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+138EA text36 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+13908 text36 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+13918 text36 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+1391A text36 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+13924 text36 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+1392A text36 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+1392A text36 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+1393A text36 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\__lldiv.c
+13B6A text35 CODE >12:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13B6A text35 CODE >14:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13B6E text35 CODE >15:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13B72 text35 CODE >16:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13BBC text35 CODE >17:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13BC0 text35 CODE >18:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13BC2 text35 CODE >19:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13BC4 text35 CODE >21:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13E28 text34 CODE >23:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13E28 text34 CODE >25:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13E4C text34 CODE >27:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13ED2 text33 CODE >29:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13ED2 text33 CODE >31:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13ED6 text33 CODE >32:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13ED8 text33 CODE >34:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13ECA text32 CODE >43:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13ECA text32 CODE >45:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13ECE text32 CODE >46:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13ED0 text32 CODE >48:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13EBE text31 CODE >50:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13EC0 text31 CODE >52:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13EC4 text31 CODE >53:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13EC8 text31 CODE >55:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\I2C.c
+13E4E text30 CODE >114:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+13E50 text30 CODE >117:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+13E54 text30 CODE >118:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+13E5A text30 CODE >119:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+13E60 text30 CODE >120:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+13E66 text30 CODE >121:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+13E6A text30 CODE >122:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12C50 text29 CODE >14:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12C52 text29 CODE >17:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12C66 text29 CODE >18:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12C76 text29 CODE >51:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12C7C text29 CODE >52:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12C82 text29 CODE >53:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12C88 text29 CODE >54:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12C8E text29 CODE >55:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12C94 text29 CODE >56:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12C9A text29 CODE >57:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CA0 text29 CODE >58:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CA6 text29 CODE >59:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CAC text29 CODE >60:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CC6 text29 CODE >61:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CCC text29 CODE >62:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CD2 text29 CODE >63:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CD8 text29 CODE >64:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CDE text29 CODE >65:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CE4 text29 CODE >66:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CEA text29 CODE >67:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CF0 text29 CODE >68:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12CF6 text29 CODE >69:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D10 text29 CODE >70:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D16 text29 CODE >71:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D1C text29 CODE >72:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D36 text29 CODE >73:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D3C text29 CODE >74:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D42 text29 CODE >75:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D48 text29 CODE >76:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D4E text29 CODE >77:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D54 text29 CODE >80:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D5A text29 CODE >83:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D68 text29 CODE >85:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D6E text29 CODE >86:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D74 text29 CODE >87:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D7A text29 CODE >89:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D7E text29 CODE >92:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D86 text29 CODE >93:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D8C text29 CODE >94:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D92 text29 CODE >96:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D96 text29 CODE >98:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12D9A text29 CODE >99:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12DA0 text29 CODE >100:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12DA6 text29 CODE >101:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12DC2 text29 CODE >102:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12DC6 text29 CODE >103:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12DD8 text29 CODE >104:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+12DEA text29 CODE >105:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\SSD1306.c
+13DDA text28 CODE >318:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13DDC text28 CODE >320:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13DE0 text28 CODE >321:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13DE4 text28 CODE >322:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13DEE text28 CODE >323:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13DF6 text28 CODE >324:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13E00 text28 CODE >325:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11F36 text27 CODE >327:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11F38 text27 CODE >330:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11F4A text27 CODE >331:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11F80 text27 CODE >333:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11F92 text27 CODE >334:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11F9A text27 CODE >338:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11FAC text27 CODE >340:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11FB0 text27 CODE >341:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11FB6 text27 CODE >342:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11FBC text27 CODE >343:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11FDC text27 CODE >345:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11FE0 text27 CODE >346:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11FE4 text27 CODE >348:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12010 text27 CODE >350:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12022 text27 CODE >351:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12028 text27 CODE >352:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1202C text27 CODE >355:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12048 text27 CODE >357:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1204C text27 CODE >358:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12050 text27 CODE >359:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12060 text27 CODE >361:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12064 text27 CODE >362:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1206C text27 CODE >366:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1208C text27 CODE >367:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12090 text27 CODE >369:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12098 text27 CODE >370:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+120A0 text27 CODE >371:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+120AA text27 CODE >373:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+120AE text27 CODE >374:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+120B4 text27 CODE >375:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+120BA text27 CODE >376:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+120BE text27 CODE >378:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+120EA text27 CODE >380:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+120FE text27 CODE >381:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12102 text27 CODE >383:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1210C text27 CODE >384:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12114 text27 CODE >385:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1211E text27 CODE >387:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12122 text27 CODE >388:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12128 text27 CODE >389:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1212E text27 CODE >390:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12132 text27 CODE >392:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1215E text27 CODE >394:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12172 text27 CODE >395:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12176 text27 CODE >396:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1217A text27 CODE >399:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12182 text27 CODE >400:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1218A text27 CODE >401:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12194 text27 CODE >403:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12198 text27 CODE >404:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1219E text27 CODE >405:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+121A4 text27 CODE >406:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+121C0 text27 CODE >407:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+121C4 text27 CODE >409:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+121CE text27 CODE >410:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+121D6 text27 CODE >411:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+121E0 text27 CODE >413:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+121E4 text27 CODE >414:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+121EA text27 CODE >415:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+121F0 text27 CODE >416:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12210 text27 CODE >419:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12214 text27 CODE >420:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12224 text27 CODE >422:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12228 text27 CODE >423:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1222E text27 CODE >427:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13D80 text26 CODE >270:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13D80 text26 CODE >273:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13D88 text26 CODE >275:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13D98 text26 CODE >276:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13D9C text26 CODE >277:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13DB0 text26 CODE >278:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10DAE text25 CODE >429:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10DB0 text25 CODE >432:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10DC2 text25 CODE >433:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10DC6 text25 CODE >434:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10DCC text25 CODE >435:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10DD2 text25 CODE >436:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10DE2 text25 CODE >438:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10DE6 text25 CODE >439:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10E28 text25 CODE >440:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10E2E text25 CODE >441:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10E32 text25 CODE >444:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10E4E text25 CODE >446:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10E52 text25 CODE >447:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10E56 text25 CODE >448:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10E5A text25 CODE >449:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10E9C text25 CODE >450:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10EAE text25 CODE >452:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10EBE text25 CODE >454:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10EC6 text25 CODE >455:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10ECE text25 CODE >456:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10ED8 text25 CODE >458:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10EDC text25 CODE >459:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10EE2 text25 CODE >460:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10EE8 text25 CODE >461:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10EEC text25 CODE >463:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F18 text25 CODE >465:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F2A text25 CODE >466:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F2E text25 CODE >468:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F38 text25 CODE >469:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F40 text25 CODE >470:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F4A text25 CODE >472:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F4E text25 CODE >473:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F54 text25 CODE >474:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F5A text25 CODE >476:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F6E text25 CODE >478:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10F9A text25 CODE >480:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FA0 text25 CODE >481:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FA4 text25 CODE >482:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FA8 text25 CODE >485:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FB0 text25 CODE >486:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FB8 text25 CODE >487:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FC2 text25 CODE >489:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FC6 text25 CODE >490:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FCC text25 CODE >491:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FD2 text25 CODE >493:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FEE text25 CODE >494:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FF2 text25 CODE >496:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+10FFC text25 CODE >497:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11004 text25 CODE >498:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1100E text25 CODE >500:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11012 text25 CODE >501:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11018 text25 CODE >502:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1101E text25 CODE >504:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1103E text25 CODE >507:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11042 text25 CODE >508:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11046 text25 CODE >511:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11056 text25 CODE >513:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1105E text25 CODE >514:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11066 text25 CODE >515:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11070 text25 CODE >517:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11074 text25 CODE >518:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1107A text25 CODE >519:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11080 text25 CODE >521:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11084 text25 CODE >523:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+110B4 text25 CODE >525:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+110C6 text25 CODE >526:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+110CA text25 CODE >528:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+110D4 text25 CODE >529:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+110DC text25 CODE >530:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+110E6 text25 CODE >532:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+110EA text25 CODE >533:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+110F0 text25 CODE >534:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+110F6 text25 CODE >536:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+110FA text25 CODE >538:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11132 text25 CODE >540:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11144 text25 CODE >541:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11148 text25 CODE >543:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11152 text25 CODE >544:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1115A text25 CODE >545:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11164 text25 CODE >547:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11168 text25 CODE >548:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1116E text25 CODE >549:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11174 text25 CODE >551:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11178 text25 CODE >553:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+111B0 text25 CODE >555:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+111C2 text25 CODE >556:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+111C6 text25 CODE >557:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+111CA text25 CODE >560:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+111D2 text25 CODE >561:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+111DA text25 CODE >562:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+111E4 text25 CODE >564:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+111E8 text25 CODE >565:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+111EE text25 CODE >566:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+111F4 text25 CODE >568:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11210 text25 CODE >569:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11214 text25 CODE >571:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1121E text25 CODE >572:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11226 text25 CODE >573:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11230 text25 CODE >575:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11234 text25 CODE >576:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1123A text25 CODE >577:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11240 text25 CODE >579:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1125C text25 CODE >580:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11260 text25 CODE >582:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1126A text25 CODE >583:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11272 text25 CODE >584:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1127C text25 CODE >586:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11280 text25 CODE >587:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+11286 text25 CODE >588:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1128C text25 CODE >590:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+112AC text25 CODE >593:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+112B0 text25 CODE >595:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+139B2 text24 CODE >7:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+139B2 text24 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+139BA text24 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+139CC text24 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+139D0 text24 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+139D4 text24 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+139DA text24 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+139DC text24 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+139EA text24 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+139F0 text24 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+13A06 text24 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+13A0E text24 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+13A10 text24 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+13A16 text24 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+13A1C text24 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+13A1C text24 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+13A24 text24 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\lwdiv.c
+13E02 text23 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+13E02 text23 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+13E0E text23 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+13E16 text23 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+13E1E text23 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+13E26 text23 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+13720 text22 CODE >280:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13720 text22 CODE >283:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13728 text22 CODE >284:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1372C text22 CODE >286:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13744 text22 CODE >287:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1375E text22 CODE >288:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1377A text22 CODE >289:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+137AC text22 CODE >291:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+137C8 text22 CODE >294:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+137CC text22 CODE >295:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+137D2 text22 CODE >296:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+137E4 text22 CODE >297:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+12F62 text21 CODE >54:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12F62 text21 CODE >57:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12F68 text21 CODE >59:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12F70 text21 CODE >61:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12F7A text21 CODE >62:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12F8A text21 CODE >63:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12F90 text21 CODE >64:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12FA8 text21 CODE >65:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12FB0 text21 CODE >66:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12FD0 text21 CODE >67:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12FF0 text21 CODE >69:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+12FFC text21 CODE >70:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1300C text21 CODE >71:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13012 text21 CODE >72:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1302A text21 CODE >73:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13032 text21 CODE >74:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1303A text21 CODE >75:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1305A text21 CODE >77:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13066 text21 CODE >78:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13076 text21 CODE >79:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1307C text21 CODE >80:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13094 text21 CODE >81:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1309C text21 CODE >82:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+130A4 text21 CODE >83:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+130AE text21 CODE >84:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+130BE text21 CODE >85:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C1E text20 CODE >87:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C1E text20 CODE >89:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C24 text20 CODE >90:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C2E text20 CODE >91:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C3E text20 CODE >92:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C48 text20 CODE >93:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C58 text20 CODE >94:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C62 text20 CODE >95:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C72 text20 CODE >96:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+137E6 text19 CODE >33:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+137E6 text19 CODE >35:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+137EC text19 CODE >36:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+137F6 text19 CODE >37:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13806 text19 CODE >38:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1380C text19 CODE >39:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13816 text19 CODE >40:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13826 text19 CODE >41:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13838 text19 CODE >42:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1384C text19 CODE >45:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1385C text19 CODE >46:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1386C text19 CODE >48:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13876 text19 CODE >49:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13886 text19 CODE >51:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13896 text19 CODE >52:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13A26 text18 CODE >597:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A28 text18 CODE >600:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A2E text18 CODE >601:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A34 text18 CODE >602:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A3A text18 CODE >605:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A42 text18 CODE >606:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A48 text18 CODE >607:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A4E text18 CODE >609:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A52 text18 CODE >611:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A56 text18 CODE >612:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A5C text18 CODE >613:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A62 text18 CODE >614:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A7E text18 CODE >615:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A82 text18 CODE >616:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A94 text18 CODE >617:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13A96 text17 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+13A96 text17 CODE >119:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+13AA6 text17 CODE >121:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+13AB4 text17 CODE >122:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+13AC4 text17 CODE >123:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+13ACE text17 CODE >124:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+13AD8 text17 CODE >125:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+13AEE text17 CODE >128:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+13AFE text17 CODE >129:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+13340 text16 CODE >299:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13340 text16 CODE >302:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13350 text16 CODE >303:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13354 text16 CODE >305:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1337C text16 CODE >306:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+133AA text16 CODE >307:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+133DE text16 CODE >308:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13414 text16 CODE >310:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13430 text16 CODE >313:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13434 text16 CODE >314:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1343A text16 CODE >315:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1344C text16 CODE >316:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13D00 text15 CODE >110:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13D00 text15 CODE >112:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13D06 text15 CODE >113:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13D0C text15 CODE >114:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13D12 text15 CODE >115:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13D18 text15 CODE >116:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13D1E text15 CODE >117:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13D28 text15 CODE >118:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13D42 text15 CODE >119:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13BC6 text14 CODE >98:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13BC6 text14 CODE >100:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13BCC text14 CODE >101:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13BD2 text14 CODE >102:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13BDC text14 CODE >103:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13BEC text14 CODE >104:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13BFC text14 CODE >105:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C02 text14 CODE >106:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C0C text14 CODE >107:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C1C text14 CODE >108:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1344E text13 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+1344E text13 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+13464 text13 CODE >48:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+13478 text13 CODE >49:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+134A2 text13 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+134A4 text13 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+134B4 text13 CODE >52:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+134B8 text13 CODE >53:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+134C6 text13 CODE >54:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+134DE text13 CODE >57:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+134F2 text13 CODE >60:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+13506 text13 CODE >63:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+13510 text13 CODE >64:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+13512 text13 CODE >62:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+13522 text13 CODE >67:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+13532 text13 CODE >68:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+13542 text13 CODE >69:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+13552 text13 CODE >70:C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+12DEC text12 CODE >33:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12DEC text12 CODE >35:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12E7E text12 CODE >36:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12EB6 text12 CODE >37:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12EEE text12 CODE >38:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12F26 text12 CODE >39:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12F5E text12 CODE >40:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+12F60 text12 CODE >41:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\ADC.c
+13658 text11 CODE >619:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1365A text11 CODE >622:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13660 text11 CODE >623:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13666 text11 CODE >624:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1366C text11 CODE >626:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13678 text11 CODE >627:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13684 text11 CODE >628:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13690 text11 CODE >629:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13698 text11 CODE >632:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+136A2 text11 CODE >633:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+136AA text11 CODE >634:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+136B4 text11 CODE >636:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+136B8 text11 CODE >638:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+136BC text11 CODE >639:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+136C2 text11 CODE >640:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+136C8 text11 CODE >641:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+136EA text11 CODE >642:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+136EE text11 CODE >643:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13700 text11 CODE >644:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13714 text11 CODE >645:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1371E text11 CODE >646:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13E9A text10 CODE >20:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13E9A text10 CODE >22:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13EAC text10 CODE >23:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+1393C text9 CODE >259:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1393E text9 CODE >262:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13948 text9 CODE >263:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+1394C text9 CODE >264:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13952 text9 CODE >265:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13958 text9 CODE >266:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+139AC text9 CODE >267:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+139B0 text9 CODE >268:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\OLED.c
+13DB2 text8 CODE >25:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13DB2 text8 CODE >27:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13DB8 text8 CODE >28:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13DBE text8 CODE >29:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13DC8 text8 CODE >30:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13DD8 text8 CODE >31:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\UI.c
+13C74 text7 CODE >242:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13C74 text7 CODE >244:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13C78 text7 CODE >245:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13C7C text7 CODE >246:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13C92 text7 CODE >249:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13C98 text7 CODE >250:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13CAE text7 CODE >251:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13D44 text6 CODE >230:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13D44 text6 CODE >233:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13D4A text6 CODE >234:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13D5E text6 CODE >236:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13D62 text6 CODE >237:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13D76 text6 CODE >238:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13D7E text6 CODE >240:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12230 text5 CODE >421:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12230 text5 CODE >424:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1226C text5 CODE >425:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+122A8 text5 CODE >426:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+122E4 text5 CODE >427:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12322 text5 CODE >428:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12360 text5 CODE >429:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1239E text5 CODE >430:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+123DC text5 CODE >431:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1241A text5 CODE >432:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12458 text5 CODE >433:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12496 text5 CODE >434:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+124D4 text5 CODE >435:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12510 text5 CODE >436:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12514 text5 CODE >438:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+130C0 text4 CODE >440:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+130C0 text4 CODE >442:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+130D4 text4 CODE >443:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+130E8 text4 CODE >444:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+130FC text4 CODE >445:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13110 text4 CODE >446:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13124 text4 CODE >447:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13138 text4 CODE >448:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1314C text4 CODE >449:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13160 text4 CODE >450:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13172 text4 CODE >451:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13186 text4 CODE >452:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1319A text4 CODE >453:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+131AE text4 CODE >454:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+131C0 text4 CODE >455:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+131D4 text4 CODE >456:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+131E8 text4 CODE >457:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+131FC text4 CODE >458:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1320E text4 CODE >459:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13212 text4 CODE >461:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10000 text3 CODE >256:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10000 text3 CODE >259:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10004 text3 CODE >260:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10008 text3 CODE >261:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10010 text3 CODE >262:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10010 text3 CODE >263:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10010 text3 CODE >264:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10018 text3 CODE >266:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10036 text3 CODE >267:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10038 text3 CODE >268:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1003A text3 CODE >269:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1003E text3 CODE >270:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10040 text3 CODE >271:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10042 text3 CODE >272:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10056 text3 CODE >273:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1005A text3 CODE >275:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1005C text3 CODE >276:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1005E text3 CODE >277:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10072 text3 CODE >278:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+100EA text3 CODE >279:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+100F0 text3 CODE >280:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+100F6 text3 CODE >281:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1010A text3 CODE >282:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10182 text3 CODE >283:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10188 text3 CODE >284:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1019C text3 CODE >285:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10214 text3 CODE >286:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1021A text3 CODE >287:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1022E text3 CODE >288:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+102A6 text3 CODE >289:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+102AC text3 CODE >290:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+102C0 text3 CODE >291:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10338 text3 CODE >292:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10342 text3 CODE >293:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10356 text3 CODE >294:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+103CE text3 CODE >295:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+103FA text3 CODE >296:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1040E text3 CODE >297:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10486 text3 CODE >298:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+104A0 text3 CODE >273:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10514 text3 CODE >300:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10518 text3 CODE >301:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1051A text3 CODE >302:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1051C text3 CODE >303:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1053C text3 CODE >304:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10564 text3 CODE >306:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1057E text3 CODE >307:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10592 text3 CODE >308:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10608 text3 CODE >309:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1060C text3 CODE >310:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10612 text3 CODE >311:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10626 text3 CODE >312:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1069C text3 CODE >313:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+106A0 text3 CODE >314:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+106A6 text3 CODE >315:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+106BA text3 CODE >316:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10730 text3 CODE >317:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10734 text3 CODE >318:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1073A text3 CODE >319:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1074E text3 CODE >320:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+107C4 text3 CODE >321:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+107C8 text3 CODE >322:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+107CE text3 CODE >323:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+107E2 text3 CODE >324:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10858 text3 CODE >325:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1085C text3 CODE >326:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10866 text3 CODE >327:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1087A text3 CODE >328:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+108F0 text3 CODE >329:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+108F4 text3 CODE >330:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10920 text3 CODE >331:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10934 text3 CODE >332:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+109AA text3 CODE >333:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+109AE text3 CODE >334:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+109BE text3 CODE >335:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+109DE text3 CODE >336:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+109E0 text3 CODE >337:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+109E2 text3 CODE >338:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+109E4 text3 CODE >339:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+109E6 text3 CODE >340:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+109FA text3 CODE >341:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+109FE text3 CODE >343:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10A12 text3 CODE >344:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10A48 text3 CODE >345:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10A4E text3 CODE >346:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10A54 text3 CODE >347:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10A68 text3 CODE >348:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10A9E text3 CODE >349:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10AA4 text3 CODE >350:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10AB8 text3 CODE >351:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10AEE text3 CODE >352:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10AF4 text3 CODE >353:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10B08 text3 CODE >354:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10B3E text3 CODE >355:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10B44 text3 CODE >356:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10B58 text3 CODE >357:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10B8E text3 CODE >358:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10B98 text3 CODE >359:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10BAC text3 CODE >360:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10BE2 text3 CODE >361:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10C0E text3 CODE >362:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10C22 text3 CODE >363:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10C58 text3 CODE >364:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10C72 text3 CODE >341:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10CA4 text3 CODE >366:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10CAA text3 CODE >367:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10CB0 text3 CODE >368:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10CB6 text3 CODE >369:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10CBC text3 CODE >370:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10CC6 text3 CODE >371:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10CF2 text3 CODE >372:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10D12 text3 CODE >373:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10D3A text3 CODE >375:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10D54 text3 CODE >376:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10D6C text3 CODE >377:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10D8C text3 CODE >378:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+10DAC text3 CODE >380:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AAA text2 CODE >382:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AAA text2 CODE >384:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AAE text2 CODE >385:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AB2 text2 CODE >386:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12ABA text2 CODE >387:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12ABA text2 CODE >389:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AC6 text2 CODE >390:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AC8 text2 CODE >391:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12ACA text2 CODE >392:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12ACC text2 CODE >393:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12ACE text2 CODE >394:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AE2 text2 CODE >395:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AE6 text2 CODE >397:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AF4 text2 CODE >398:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AF6 text2 CODE >399:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12AF8 text2 CODE >400:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12B06 text2 CODE >401:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12B08 text2 CODE >402:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12B0A text2 CODE >403:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12B1E text2 CODE >404:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12B3E text2 CODE >405:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12B58 text2 CODE >395:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12BA2 text2 CODE >407:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12BC2 text2 CODE >408:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12BC4 text2 CODE >409:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12BC6 text2 CODE >410:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12BC8 text2 CODE >411:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12BCA text2 CODE >412:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12BCE text2 CODE >414:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12BE2 text2 CODE >415:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12C02 text2 CODE >416:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12C1C text2 CODE >412:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12C4E text2 CODE >419:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13214 text1 CODE >188:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13216 text1 CODE >190:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13226 text1 CODE >192:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13230 text1 CODE >193:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13238 text1 CODE >194:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13240 text1 CODE >195:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13248 text1 CODE >196:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13250 text1 CODE >197:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13258 text1 CODE >198:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13260 text1 CODE >199:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13268 text1 CODE >200:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13270 text1 CODE >201:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13278 text1 CODE >202:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13280 text1 CODE >203:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13288 text1 CODE >204:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13290 text1 CODE >205:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13298 text1 CODE >206:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132A0 text1 CODE >207:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132A8 text1 CODE >208:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132AC text1 CODE >209:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132BC text1 CODE >211:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132C6 text1 CODE >212:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132CE text1 CODE >213:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132D6 text1 CODE >214:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132DE text1 CODE >215:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132E6 text1 CODE >216:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132EE text1 CODE >217:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132F6 text1 CODE >218:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+132FE text1 CODE >219:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13306 text1 CODE >220:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1330E text1 CODE >221:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13316 text1 CODE >222:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1331E text1 CODE >223:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13326 text1 CODE >224:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1332E text1 CODE >225:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13336 text1 CODE >226:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1333E text1 CODE >228:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12516 text0 CODE >101:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12516 text0 CODE >103:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1251A text0 CODE >104:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1251E text0 CODE >105:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12522 text0 CODE >106:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12526 text0 CODE >107:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1252A text0 CODE >108:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1252E text0 CODE >109:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12532 text0 CODE >110:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12536 text0 CODE >111:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1253A text0 CODE >113:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1253E text0 CODE >114:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12542 text0 CODE >116:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12548 text0 CODE >117:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1254E text0 CODE >118:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12552 text0 CODE >119:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12554 text0 CODE >120:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12556 text0 CODE >121:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12558 text0 CODE >122:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1255A text0 CODE >123:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1255C text0 CODE >124:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1255E text0 CODE >125:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12560 text0 CODE >126:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12562 text0 CODE >127:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12564 text0 CODE >128:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12566 text0 CODE >129:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12568 text0 CODE >130:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1256A text0 CODE >132:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1256C text0 CODE >133:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1256E text0 CODE >134:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12572 text0 CODE >135:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12576 text0 CODE >136:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12578 text0 CODE >137:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1257C text0 CODE >138:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12592 text0 CODE >140:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1259A text0 CODE >141:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+125AE text0 CODE >142:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+125C4 text0 CODE >143:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+125CC text0 CODE >147:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+125CC text0 CODE >148:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+125D0 text0 CODE >149:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+125E2 text0 CODE >151:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+125E6 text0 CODE >152:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+125EE text0 CODE >153:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+125FA text0 CODE >155:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12600 text0 CODE >157:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12618 text0 CODE >158:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1261C text0 CODE >159:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1263C text0 CODE >161:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12642 text0 CODE >162:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12658 text0 CODE >163:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1265E text0 CODE >164:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1265E text0 CODE >165:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12662 text0 CODE >166:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1266A text0 CODE >167:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12676 text0 CODE >168:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+126A4 text0 CODE >169:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+126A8 text0 CODE >170:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+126BA text0 CODE >173:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+126C8 text0 CODE >175:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+126DE text0 CODE >176:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+126E4 text0 CODE >177:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+126E8 text0 CODE >178:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+126F0 text0 CODE >179:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+126F4 text0 CODE >180:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+1271C text0 CODE >181:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+12720 text0 CODE >182:C:\Users\Can\Desktop\Projeler\Fiverr\PIC18F27J13_Pressure\MPLAB\main.c
+13E6C cinit CODE >6965:C:\Users\Can\AppData\Local\Temp\s890.s
+13E6C cinit CODE >6967:C:\Users\Can\AppData\Local\Temp\s890.s
+13E6C cinit CODE >6970:C:\Users\Can\AppData\Local\Temp\s890.s
+13E6C cinit CODE >7016:C:\Users\Can\AppData\Local\Temp\s890.s
+13E70 cinit CODE >7017:C:\Users\Can\AppData\Local\Temp\s890.s
+13E72 cinit CODE >7018:C:\Users\Can\AppData\Local\Temp\s890.s
+13E72 cinit CODE >7019:C:\Users\Can\AppData\Local\Temp\s890.s
+13E74 cinit CODE >7020:C:\Users\Can\AppData\Local\Temp\s890.s
+13E76 cinit CODE >7021:C:\Users\Can\AppData\Local\Temp\s890.s
+13E78 cinit CODE >7024:C:\Users\Can\AppData\Local\Temp\s890.s
+13E7A cinit CODE >7030:C:\Users\Can\AppData\Local\Temp\s890.s
+13E7A cinit CODE >7033:C:\Users\Can\AppData\Local\Temp\s890.s
+13E7C cinit CODE >7034:C:\Users\Can\AppData\Local\Temp\s890.s
+13E7E cinit CODE >7035:C:\Users\Can\AppData\Local\Temp\s890.s
+13E80 cinit CODE >7036:C:\Users\Can\AppData\Local\Temp\s890.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__Lmediumconst F41C 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+OLED_ClearLine@line 4 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Hspace_0 20000 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hspace_1 8F 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+ADC_BatteryLevel@adcConv 4C 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__end_of_digits8x8 FF83 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\MPLAB.production.o
+__mediumconst F41C 0 MEDIUMCONST 0 mediumconst C:\Users\Can\AppData\Local\Temp\s890.o
+_checkBatt 13D44 0 CODE 0 text6 dist/default/production\MPLAB.production.o
+checkBatt@tmp 50 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_PrintInt@den 33 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__CFG_WPCFG$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+UI_Proceed@levels 35 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\MPLAB.production.o
+__end_of_batt_level FF33 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+_LATA F89 0 ABS 0 - dist/default/production\MPLAB.production.o
+_LATB F8A 0 ABS 0 - dist/default/production\MPLAB.production.o
+_LATC F8B 0 ABS 0 - dist/default/production\MPLAB.production.o
+_PIE1 F9D 0 ABS 0 - dist/default/production\MPLAB.production.o
+___sp 0 0 STACK 2 stack C:\Users\Can\AppData\Local\Temp\s890.o
+_main 12516 0 CODE 0 text0 dist/default/production\MPLAB.production.o
+_menu 6C 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+_uRec 6B 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+__end_of_OLED_BatteryLevel 139B2 0 CODE 0 text9 dist/default/production\MPLAB.production.o
+_Pressure_Calibrate 13E84 0 CODE 0 text37 dist/default/production\MPLAB.production.o
+I2C2_Write@b 2 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+start 0 0 CODE 0 init C:\Users\Can\AppData\Local\Temp\s890.o
+___flmul@aexp 27 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___flmul@bexp 28 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___flmul@prod 29 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___flmul@sign 22 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___flmul@temp 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__size_of___fladd 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of___fldiv 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of___flmul 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of___flsub 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of___fltol 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of___lldiv 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of___lwdiv 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_I2C2_Start 13ED2 0 CODE 0 text33 dist/default/production\MPLAB.production.o
+_I2C2_Write 13EBE 0 CODE 0 text31 dist/default/production\MPLAB.production.o
+__size_of_ADC_ReadmmHg 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__CFG_WDTEN$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\MPLAB.production.o
+_digits8x8 FF33 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+?___lmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+?___wmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+SSD1306_Command@c 3 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_PrintLong@value 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_OLED_WriteDigit 10DAE 0 CODE 0 text25 dist/default/production\MPLAB.production.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/production\MPLAB.production.o
+__end_of_UI_RampProceed 13C74 0 CODE 0 text20 dist/default/production\MPLAB.production.o
+__size_of_ADC_Init 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_ADC_Read 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_UI_LowBattery 13DB2 0 CODE 0 text8 dist/default/production\MPLAB.production.o
+__accesstop 60 0 ABS 0 - C:\Users\Can\AppData\Local\Temp\s890.o
+intlevel0 0 0 CODE 0 text C:\Users\Can\AppData\Local\Temp\s890.o
+intlevel1 0 0 CODE 0 text C:\Users\Can\AppData\Local\Temp\s890.o
+intlevel2 0 0 CODE 0 text C:\Users\Can\AppData\Local\Temp\s890.o
+intlevel3 0 0 CODE 0 text C:\Users\Can\AppData\Local\Temp\s890.o
+__end_of_ADC_ReadmmHg 128F6 0 CODE 0 text38 dist/default/production\MPLAB.production.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\MPLAB.production.o
+__end_of_errorBatt 13CBA 0 CODE 0 text7 dist/default/production\MPLAB.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\MPLAB.production.o
+__size_of_OLED_ClearLine 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_errorBatt 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\MPLAB.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\MPLAB.production.o
+__end_of_softStart 12516 0 CODE 0 text5 dist/default/production\MPLAB.production.o
+OLED_PrintInt@value 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+?_ADC_ReadmmHg 48 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_WriteDigit@i_950 29 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_WriteDigit@i_951 28 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__size_of_softStart 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+OLED_Clear@width 7 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+setPressureLevels@level 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_ADCON0 FC2 0 ABS 0 - dist/default/production\MPLAB.production.o
+_ADCON1 FC1 0 ABS 0 - dist/default/production\MPLAB.production.o
+_ADRESH FC4 0 ABS 0 - dist/default/production\MPLAB.production.o
+_ADRESL FC3 0 ABS 0 - dist/default/production\MPLAB.production.o
+_ANCON0 F48 0 ABS 0 - dist/default/production\MPLAB.production.o
+_ANCON1 F49 0 ABS 0 - dist/default/production\MPLAB.production.o
+_ADC_BatteryLevel$1821 48 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_errorBatt 13C74 0 CODE 0 text7 dist/default/production\MPLAB.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Can\AppData\Local\Temp\s890.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Can\AppData\Local\Temp\s890.o
+__end_of_I2C2_Start 13EDA 0 CODE 0 text33 dist/default/production\MPLAB.production.o
+__end_of_I2C2_Write 13ECA 0 CODE 0 text31 dist/default/production\MPLAB.production.o
+__size_of_OLED_SetCursor 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_UI_Proceed 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\MPLAB.production.o
+__end_of___flge 13658 0 CODE 0 text42 dist/default/production\MPLAB.production.o
+__end_of___lmul 13B00 0 CODE 0 text17 dist/default/production\MPLAB.production.o
+__end_of___wmul 13E28 0 CODE 0 text23 dist/default/production\MPLAB.production.o
+_UI_SetPress 13BC6 0 CODE 0 text14 dist/default/production\MPLAB.production.o
+_softStart 12230 0 CODE 0 text5 dist/default/production\MPLAB.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\MPLAB.production.o
+OLED_Print@crspos 19 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_BAUDCONbits F7E 0 ABS 0 - dist/default/production\MPLAB.production.o
+___fldiv@aexp 47 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___fldiv@bexp 46 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___fldiv@sign 3F 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Hmediumconst 10000 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+_ADC_Init 13EAE 0 CODE 0 text46 dist/default/production\MPLAB.production.o
+_ADC_Read 13B00 0 CODE 0 text44 dist/default/production\MPLAB.production.o
+_OLED_BatteryLevel 1393C 0 CODE 0 text9 dist/default/production\MPLAB.production.o
+__Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\MPLAB.production.o
+_OLED_Clear 13658 0 CODE 0 text11 dist/default/production\MPLAB.production.o
+UI_ReadPress@prs 39 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_OLED_Print 13D80 0 CODE 0 text26 dist/default/production\MPLAB.production.o
+_loadedLevel 60 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+__end_of___fladd 11772 0 CODE 0 text40 dist/default/production\MPLAB.production.o
+__end_of___fldiv 11F36 0 CODE 0 text43 dist/default/production\MPLAB.production.o
+__end_of___flmul 11B9C 0 CODE 0 text41 dist/default/production\MPLAB.production.o
+__end_of___flsub 13D00 0 CODE 0 text39 dist/default/production\MPLAB.production.o
+__end_of___fltol 13554 0 CODE 0 text13 dist/default/production\MPLAB.production.o
+_OLED_Write 11F36 0 CODE 0 text27 dist/default/production\MPLAB.production.o
+__end_of___lldiv 1393C 0 CODE 0 text36 dist/default/production\MPLAB.production.o
+__end_of___lwdiv 13A26 0 CODE 0 text24 dist/default/production\MPLAB.production.o
+_INTCON FF2 0 ABS 0 - dist/default/production\MPLAB.production.o
+__end_of_ADC_Init 13EBE 0 CODE 0 text46 dist/default/production\MPLAB.production.o
+__end_of_ADC_Read 13B6A 0 CODE 0 text44 dist/default/production\MPLAB.production.o
+_UI_ReadPress 13D00 0 CODE 0 text15 dist/default/production\MPLAB.production.o
+OLED_ClearLine@j 5 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_ClearLine@k 6 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__CFG_RTCOSC$INTOSCREF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_OLED_WriteDigit 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+___lwdiv@quotient 5 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___fladd@a 5 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___fladd@b 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___fldiv@a 33 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___fldiv@b 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___flmul@a 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___flmul@b 16 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___flsub@a 15 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___flsub@b 11 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_BatteryLevel@level 8 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___lldiv@counter D 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\MPLAB.production.o
+ADC_Read@channel 15 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+start_initialization 13E6C 0 CODE 0 cinit dist/default/production\MPLAB.production.o
+_SSP2CON2bits F71 0 ABS 0 - dist/default/production\MPLAB.production.o
+_OSCCON FD3 0 ABS 0 - dist/default/production\MPLAB.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\MPLAB.production.o
+__size_of_UI_LowBattery 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_UI_Clear 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_TRISBbits F93 0 ABS 0 - dist/default/production\MPLAB.production.o
+_TRISCbits F94 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_UI_Ready 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+___lldiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\MPLAB.production.o
+_rampRun 12AAA 0 CODE 0 text2 dist/default/production\MPLAB.production.o
+__CFG_WDTPS$32768 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_OLED_PrintLong 13340 0 CODE 0 text16 dist/default/production\MPLAB.production.o
+__end_of_digits16x16 FEE3 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+__end_of_digits16x24 FBCD 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+__CFG_WPDIS$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__end_of_OLED_Clear 13720 0 CODE 0 text11 dist/default/production\MPLAB.production.o
+__size_of_UI_ReadPress 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__end_of_OLED_Print 13DB2 0 CODE 0 text26 dist/default/production\MPLAB.production.o
+__end_of_OLED_Write 12230 0 CODE 0 text27 dist/default/production\MPLAB.production.o
+__CFG_CFGPLLEN$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__CFG_CLKOEC$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_OLED_PrintInt 13720 0 CODE 0 text22 dist/default/production\MPLAB.production.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\MPLAB.production.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\MPLAB.production.o
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\MPLAB.production.o
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\MPLAB.production.o
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\MPLAB.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\MPLAB.production.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\MPLAB.production.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\MPLAB.production.o
+__Hbank8 0 0 ABS 0 bank8 dist/default/production\MPLAB.production.o
+__Hbank9 0 0 ABS 0 bank9 dist/default/production\MPLAB.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\MPLAB.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\MPLAB.production.o
+__end_of_UI_LowBattery 13DDA 0 CODE 0 text8 dist/default/production\MPLAB.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\MPLAB.production.o
+__Hidloc 0 0 IDLOC 0 idloc dist/default/production\MPLAB.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\MPLAB.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\MPLAB.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\MPLAB.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\MPLAB.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\MPLAB.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\MPLAB.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\MPLAB.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\MPLAB.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\MPLAB.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\MPLAB.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\MPLAB.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\MPLAB.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\MPLAB.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\MPLAB.production.o
+___lwdiv@counter 7 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Ljflash_buffer 1F800 0 CODE 0 jflash_buffer dist/default/production\MPLAB.production.o
+__Hbank10 0 0 ABS 0 bank10 dist/default/production\MPLAB.production.o
+__Hbank11 0 0 ABS 0 bank11 dist/default/production\MPLAB.production.o
+__Hbank12 0 0 ABS 0 bank12 dist/default/production\MPLAB.production.o
+__Hbank13 0 0 ABS 0 bank13 dist/default/production\MPLAB.production.o
+__Hbank14 0 0 ABS 0 bank14 dist/default/production\MPLAB.production.o
+__size_of___xxtofl 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+UI_Ready@loaded 35 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\MPLAB.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\MPLAB.production.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Can\AppData\Local\Temp\s890.o
+__size_of_Pressure_Calibrate 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+___xxtofl@arg B 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___xxtofl@exp A 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___xxtofl@val 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+SSD1306_Begin@vccstate 19 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\MPLAB.production.o
+__Hconfig 20000 0 CONFIG 0 config dist/default/production\MPLAB.production.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\MPLAB.production.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\MPLAB.production.o
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\MPLAB.production.o
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\MPLAB.production.o
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\MPLAB.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\MPLAB.production.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\MPLAB.production.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\MPLAB.production.o
+__Lbank8 0 0 ABS 0 bank8 dist/default/production\MPLAB.production.o
+__Lbank9 0 0 ABS 0 bank9 dist/default/production\MPLAB.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\MPLAB.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\MPLAB.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\MPLAB.production.o
+__Lidloc 0 0 IDLOC 0 idloc dist/default/production\MPLAB.production.o
+__end_of_UI_ReadPress 13D44 0 CODE 0 text15 dist/default/production\MPLAB.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\MPLAB.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\MPLAB.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\MPLAB.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\MPLAB.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\MPLAB.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\MPLAB.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\MPLAB.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\MPLAB.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\MPLAB.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\MPLAB.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\MPLAB.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\MPLAB.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\MPLAB.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\MPLAB.production.o
+_lastBattery 6D 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+OLED_PrintLong@padding 30 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_UI_Clear 13E9A 0 CODE 0 text10 dist/default/production\MPLAB.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\MPLAB.production.o
+OLED_PrintLong@den 35 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___flmul@grs 23 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\MPLAB.production.o
+_UI_Ready 137E6 0 CODE 0 text19 dist/default/production\MPLAB.production.o
+_PORTBbits F81 0 ABS 0 - dist/default/production\MPLAB.production.o
+_PORTCbits F82 0 ABS 0 - dist/default/production\MPLAB.production.o
+__CFG_IOL1WAY$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_SSD1306_Begin 12C50 0 CODE 0 text29 dist/default/production\MPLAB.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\MPLAB.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\MPLAB.production.o
+__Hinit 4 0 CODE 0 init dist/default/production\MPLAB.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\MPLAB.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\MPLAB.production.o
+__Htemp 0 0 COMRAM 1 temp dist/default/production\MPLAB.production.o
+__Htext 0 0 ABS 0 text dist/default/production\MPLAB.production.o
+_OLED_WriteDigit$952 18 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\MPLAB.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\MPLAB.production.o
+__Linit 0 0 CODE 0 init dist/default/production\MPLAB.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\MPLAB.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\MPLAB.production.o
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\MPLAB.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\MPLAB.production.o
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_SSP2CON1 F72 0 ABS 0 - dist/default/production\MPLAB.production.o
+_SSP2CON2 F71 0 ABS 0 - dist/default/production\MPLAB.production.o
+_SSP2STAT F73 0 ABS 0 - dist/default/production\MPLAB.production.o
+___flge 13554 0 CODE 0 text42 dist/default/production\MPLAB.production.o
+___lmul 13A96 0 CODE 0 text17 dist/default/production\MPLAB.production.o
+___wmul 13E02 0 CODE 0 text23 dist/default/production\MPLAB.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\MPLAB.production.o
+__end_of_UI_Clear 13EAE 0 CODE 0 text10 dist/default/production\MPLAB.production.o
+__Hintret 0 0 ABS 0 intret dist/default/production\MPLAB.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\MPLAB.production.o
+__end_of_UI_Ready 13898 0 CODE 0 text19 dist/default/production\MPLAB.production.o
+__S0 20000 0 ABS 0 - dist/default/production\MPLAB.production.o
+__S1 8F 0 ABS 0 - dist/default/production\MPLAB.production.o
+__S2 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hjflash_buffer 1F800 0 CODE 0 jflash_buffer dist/default/production\MPLAB.production.o
+__end_of_OLED_PrintLong 1344E 0 CODE 0 text16 dist/default/production\MPLAB.production.o
+__CFG_OSC$INTOSC 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__CFG_ADCSEL$BIT10 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+?_ADC_Read F 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__CFG_DSWDTPS$G2 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__end_of_font5x8 FDA3 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+__CFG_PLLDIV$1 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_setPressureLevels 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_I2C2_Start 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_I2C2_Write 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_pressureLevel 6F 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+__end_of_SSD1306_Command 13E6C 0 CODE 0 text30 dist/default/production\MPLAB.production.o
+__size_of_softStop 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\MPLAB.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\MPLAB.production.o
+UI_SetPress@prs 35 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___xxtofl 128F6 0 CODE 0 text45 dist/default/production\MPLAB.production.o
+__size_of_UI_RampProceed 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Lintentry 0 0 ABS 0 intentry dist/default/production\MPLAB.production.o
+___lldiv@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__CFG_WPEND$PAGE_WPFP 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hramtop F00 0 RAM 0 ramtop dist/default/production\MPLAB.production.o
+SSD1306_Begin@i 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+SSD1306_Begin@j 17 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+SSD1306_Begin@k 18 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+deviceRun@order 57 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\MPLAB.production.o
+__end_of___xxtofl 12AAA 0 CODE 0 text45 dist/default/production\MPLAB.production.o
+OLED_PrintLong@i 34 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_PrintLong@v 33 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__activetblptr 2 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\MPLAB.production.o
+__size_of___flge 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of___lmul 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of___wmul 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\MPLAB.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\MPLAB.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\MPLAB.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\MPLAB.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production\MPLAB.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production\MPLAB.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production\MPLAB.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production\MPLAB.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production\MPLAB.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production\MPLAB.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production\MPLAB.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production\MPLAB.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production\MPLAB.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production\MPLAB.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production\MPLAB.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production\MPLAB.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production\MPLAB.production.o
+__Htext26 0 0 ABS 0 text26 dist/default/production\MPLAB.production.o
+__Htext27 0 0 ABS 0 text27 dist/default/production\MPLAB.production.o
+__Htext28 0 0 ABS 0 text28 dist/default/production\MPLAB.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production\MPLAB.production.o
+__Htext30 0 0 ABS 0 text30 dist/default/production\MPLAB.production.o
+__Htext31 0 0 ABS 0 text31 dist/default/production\MPLAB.production.o
+__Htext32 0 0 ABS 0 text32 dist/default/production\MPLAB.production.o
+__Htext33 0 0 ABS 0 text33 dist/default/production\MPLAB.production.o
+__Htext34 0 0 ABS 0 text34 dist/default/production\MPLAB.production.o
+__Htext35 0 0 ABS 0 text35 dist/default/production\MPLAB.production.o
+__Htext36 0 0 ABS 0 text36 dist/default/production\MPLAB.production.o
+__Htext37 0 0 ABS 0 text37 dist/default/production\MPLAB.production.o
+__Htext38 0 0 ABS 0 text38 dist/default/production\MPLAB.production.o
+__Htext39 0 0 ABS 0 text39 dist/default/production\MPLAB.production.o
+__Htext40 0 0 ABS 0 text40 dist/default/production\MPLAB.production.o
+__Htext41 0 0 ABS 0 text41 dist/default/production\MPLAB.production.o
+__Htext42 0 0 ABS 0 text42 dist/default/production\MPLAB.production.o
+__Htext43 0 0 ABS 0 text43 dist/default/production\MPLAB.production.o
+__Htext44 0 0 ABS 0 text44 dist/default/production\MPLAB.production.o
+__Htext45 0 0 ABS 0 text45 dist/default/production\MPLAB.production.o
+__Htext46 0 0 ABS 0 text46 dist/default/production\MPLAB.production.o
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__CFG_DSBOREN$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__CFG_DSWDTEN$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_RCSTAbits FAC 0 ABS 0 - dist/default/production\MPLAB.production.o
+_OLED_ClearLine 13A26 0 CODE 0 text18 dist/default/production\MPLAB.production.o
+_m_font 6E 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+__size_of_OLED_PrintInt 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+___fladd@signs D 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_OLED_Write$941 8 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__ptext10 13E9A 0 CODE 0 text10 dist/default/production\MPLAB.production.o
+__ptext11 13658 0 CODE 0 text11 dist/default/production\MPLAB.production.o
+__ptext12 12DEC 0 CODE 0 text12 dist/default/production\MPLAB.production.o
+__ptext13 1344E 0 CODE 0 text13 dist/default/production\MPLAB.production.o
+__ptext14 13BC6 0 CODE 0 text14 dist/default/production\MPLAB.production.o
+__ptext15 13D00 0 CODE 0 text15 dist/default/production\MPLAB.production.o
+__ptext16 13340 0 CODE 0 text16 dist/default/production\MPLAB.production.o
+__ptext17 13A96 0 CODE 0 text17 dist/default/production\MPLAB.production.o
+__ptext18 13A26 0 CODE 0 text18 dist/default/production\MPLAB.production.o
+__ptext19 137E6 0 CODE 0 text19 dist/default/production\MPLAB.production.o
+__ptext20 13C1E 0 CODE 0 text20 dist/default/production\MPLAB.production.o
+__ptext21 12F62 0 CODE 0 text21 dist/default/production\MPLAB.production.o
+__ptext22 13720 0 CODE 0 text22 dist/default/production\MPLAB.production.o
+__ptext23 13E02 0 CODE 0 text23 dist/default/production\MPLAB.production.o
+__ptext24 139B2 0 CODE 0 text24 dist/default/production\MPLAB.production.o
+__ptext25 10DAE 0 CODE 0 text25 dist/default/production\MPLAB.production.o
+__ptext26 13D80 0 CODE 0 text26 dist/default/production\MPLAB.production.o
+__ptext27 11F36 0 CODE 0 text27 dist/default/production\MPLAB.production.o
+__ptext28 13DDA 0 CODE 0 text28 dist/default/production\MPLAB.production.o
+__ptext29 12C50 0 CODE 0 text29 dist/default/production\MPLAB.production.o
+__ptext30 13E4E 0 CODE 0 text30 dist/default/production\MPLAB.production.o
+__ptext31 13EBE 0 CODE 0 text31 dist/default/production\MPLAB.production.o
+__ptext32 13ECA 0 CODE 0 text32 dist/default/production\MPLAB.production.o
+__ptext33 13ED2 0 CODE 0 text33 dist/default/production\MPLAB.production.o
+__ptext34 13E28 0 CODE 0 text34 dist/default/production\MPLAB.production.o
+__ptext35 13B6A 0 CODE 0 text35 dist/default/production\MPLAB.production.o
+__ptext36 13898 0 CODE 0 text36 dist/default/production\MPLAB.production.o
+__ptext37 13E84 0 CODE 0 text37 dist/default/production\MPLAB.production.o
+__ptext38 12736 0 CODE 0 text38 dist/default/production\MPLAB.production.o
+__ptext39 13CBA 0 CODE 0 text39 dist/default/production\MPLAB.production.o
+__ptext40 112B2 0 CODE 0 text40 dist/default/production\MPLAB.production.o
+__ptext41 11772 0 CODE 0 text41 dist/default/production\MPLAB.production.o
+__ptext42 13554 0 CODE 0 text42 dist/default/production\MPLAB.production.o
+__ptext43 11B9C 0 CODE 0 text43 dist/default/production\MPLAB.production.o
+__ptext44 13B00 0 CODE 0 text44 dist/default/production\MPLAB.production.o
+__ptext45 128F6 0 CODE 0 text45 dist/default/production\MPLAB.production.o
+__ptext46 13EAE 0 CODE 0 text46 dist/default/production\MPLAB.production.o
+___fladd 112B2 0 CODE 0 text40 dist/default/production\MPLAB.production.o
+___fldiv 11B9C 0 CODE 0 text43 dist/default/production\MPLAB.production.o
+___flmul 11772 0 CODE 0 text41 dist/default/production\MPLAB.production.o
+___flsub 13CBA 0 CODE 0 text39 dist/default/production\MPLAB.production.o
+___fltol 1344E 0 CODE 0 text13 dist/default/production\MPLAB.production.o
+___lldiv 13898 0 CODE 0 text36 dist/default/production\MPLAB.production.o
+___lwdiv 139B2 0 CODE 0 text24 dist/default/production\MPLAB.production.o
+__end_of_UI_SetPress 13C1E 0 CODE 0 text14 dist/default/production\MPLAB.production.o
+__Lbank10 0 0 ABS 0 bank10 dist/default/production\MPLAB.production.o
+__Lbank11 0 0 ABS 0 bank11 dist/default/production\MPLAB.production.o
+__Lbank12 0 0 ABS 0 bank12 dist/default/production\MPLAB.production.o
+__Lbank13 0 0 ABS 0 bank13 dist/default/production\MPLAB.production.o
+__Lbank14 0 0 ABS 0 bank14 dist/default/production\MPLAB.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\MPLAB.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\MPLAB.production.o
+___lmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__CFG_MSSP7B_EN$MSK7 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_PRS_CALIB 64 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+I2C2_Init@c E 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_SSD1306_Command 13E4E 0 CODE 0 text30 dist/default/production\MPLAB.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\MPLAB.production.o
+__Lconfig 1FFF8 0 CONFIG 0 config dist/default/production\MPLAB.production.o
+___wmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__end_of_I2C2_Init 13BC6 0 CODE 0 text35 dist/default/production\MPLAB.production.o
+__end_of_I2C2_Stop 13ED2 0 CODE 0 text32 dist/default/production\MPLAB.production.o
+__end_of_I2C2_Wait 13E4E 0 CODE 0 text34 dist/default/production\MPLAB.production.o
+_softStop 130C0 0 CODE 0 text4 dist/default/production\MPLAB.production.o
+___fldiv@grs 42 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___fldiv@rem 3B 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__CFG_WPFP$PAGE_127 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_I2C2_Init 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_I2C2_Stop 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_I2C2_Wait 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+OLED_PrintInt@i 32 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_PrintInt@v 31 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\MPLAB.production.o
+_OLED_SetCursor 13DDA 0 CODE 0 text28 dist/default/production\MPLAB.production.o
+___lwdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\MPLAB.production.o
+__size_of_SSD1306_Begin 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+___fldiv@new_exp 40 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+rampRun@pressureVal 52 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__end_of_softStop 13214 0 CODE 0 text4 dist/default/production\MPLAB.production.o
+stackhi EAF 0 ABS 0 - C:\Users\Can\AppData\Local\Temp\s890.o
+stacklo 8F 0 ABS 0 - C:\Users\Can\AppData\Local\Temp\s890.o
+__end_of_OLED_PrintInt 137E6 0 CODE 0 text22 dist/default/production\MPLAB.production.o
+__Lintcode 0 0 CODE 0 intcode dist/default/production\MPLAB.production.o
+__CFG_PLLSEL$PLL4X 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Lintret 0 0 ABS 0 intret dist/default/production\MPLAB.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\MPLAB.production.o
+_ADCON0bits FC2 0 ABS 0 - dist/default/production\MPLAB.production.o
+___fladd@grs 10 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__size_of_OLED_Clear 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_OLED_Print 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_I2C2_Init 13B6A 0 CODE 0 text35 dist/default/production\MPLAB.production.o
+_I2C2_Stop 13ECA 0 CODE 0 text32 dist/default/production\MPLAB.production.o
+_I2C2_Wait 13E28 0 CODE 0 text34 dist/default/production\MPLAB.production.o
+__size_of_OLED_Write 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__pbssCOMRAM 5F 0 COMRAM 1 bssCOMRAM dist/default/production\MPLAB.production.o
+___flge@ff1 F 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___flge@ff2 13 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_PrintInt@padding 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__CFG_DSWDTOSC$INTOSCREF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_PIR1bits F9E 0 ABS 0 - dist/default/production\MPLAB.production.o
+OLED_WriteDigit@i 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_WriteDigit@n 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__end_of_OLED_ClearLine 13A96 0 CODE 0 text18 dist/default/production\MPLAB.production.o
+UI_Proceed@lev_order 37 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\MPLAB.production.o
+___fltol@exp1 A 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+end_of_initialization 13E7A 0 CODE 0 cinit dist/default/production\MPLAB.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\MPLAB.production.o
+__Hintentry 0 0 ABS 0 intentry dist/default/production\MPLAB.production.o
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__end_of_SSD1306_Begin 12DEC 0 CODE 0 text29 dist/default/production\MPLAB.production.o
+__end_of_setPressureLevels 13340 0 CODE 0 text1 dist/default/production\MPLAB.production.o
+___lwdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+?___fladd 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+?___fldiv 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+?___flmul 16 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+?___flsub 11 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+?___fltol 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+?___lldiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+?___lwdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\MPLAB.production.o
+__end_of_font8x16_terminal F9ED 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\MPLAB.production.o
+__Lramtop F00 0 RAM 0 ramtop dist/default/production\MPLAB.production.o
+_UI_Proceed 12F62 0 CODE 0 text21 dist/default/production\MPLAB.production.o
+OLED_SetCursor@line 4 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\MPLAB.production.o
+__pcinit 13E6C 0 CODE 0 cinit dist/default/production\MPLAB.production.o
+_ADC_BatteryLevel 12DEC 0 CODE 0 text12 dist/default/production\MPLAB.production.o
+__end_of_OLED_SetCursor 13E02 0 CODE 0 text28 dist/default/production\MPLAB.production.o
+__ptext0 12516 0 CODE 0 text0 dist/default/production\MPLAB.production.o
+__ptext1 13214 0 CODE 0 text1 dist/default/production\MPLAB.production.o
+__ptext2 12AAA 0 CODE 0 text2 dist/default/production\MPLAB.production.o
+__ptext3 10000 0 CODE 0 text3 dist/default/production\MPLAB.production.o
+__ptext4 130C0 0 CODE 0 text4 dist/default/production\MPLAB.production.o
+__ptext5 12230 0 CODE 0 text5 dist/default/production\MPLAB.production.o
+__ptext6 13D44 0 CODE 0 text6 dist/default/production\MPLAB.production.o
+__ptext7 13C74 0 CODE 0 text7 dist/default/production\MPLAB.production.o
+__ptext8 13DB2 0 CODE 0 text8 dist/default/production\MPLAB.production.o
+__ptext9 1393C 0 CODE 0 text9 dist/default/production\MPLAB.production.o
+OLED_BatteryLevel@i 9 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\MPLAB.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\MPLAB.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\MPLAB.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\MPLAB.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production\MPLAB.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production\MPLAB.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production\MPLAB.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production\MPLAB.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production\MPLAB.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production\MPLAB.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production\MPLAB.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production\MPLAB.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production\MPLAB.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production\MPLAB.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production\MPLAB.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production\MPLAB.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production\MPLAB.production.o
+__Ltext26 0 0 ABS 0 text26 dist/default/production\MPLAB.production.o
+__Ltext27 0 0 ABS 0 text27 dist/default/production\MPLAB.production.o
+__Ltext28 0 0 ABS 0 text28 dist/default/production\MPLAB.production.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production\MPLAB.production.o
+__Ltext30 0 0 ABS 0 text30 dist/default/production\MPLAB.production.o
+__Ltext31 0 0 ABS 0 text31 dist/default/production\MPLAB.production.o
+__Ltext32 0 0 ABS 0 text32 dist/default/production\MPLAB.production.o
+__Ltext33 0 0 ABS 0 text33 dist/default/production\MPLAB.production.o
+__Ltext34 0 0 ABS 0 text34 dist/default/production\MPLAB.production.o
+__Ltext35 0 0 ABS 0 text35 dist/default/production\MPLAB.production.o
+__Ltext36 0 0 ABS 0 text36 dist/default/production\MPLAB.production.o
+__Ltext37 0 0 ABS 0 text37 dist/default/production\MPLAB.production.o
+__Ltext38 0 0 ABS 0 text38 dist/default/production\MPLAB.production.o
+__Ltext39 0 0 ABS 0 text39 dist/default/production\MPLAB.production.o
+__Ltext40 0 0 ABS 0 text40 dist/default/production\MPLAB.production.o
+__Ltext41 0 0 ABS 0 text41 dist/default/production\MPLAB.production.o
+__Ltext42 0 0 ABS 0 text42 dist/default/production\MPLAB.production.o
+__Ltext43 0 0 ABS 0 text43 dist/default/production\MPLAB.production.o
+__Ltext44 0 0 ABS 0 text44 dist/default/production\MPLAB.production.o
+__Ltext45 0 0 ABS 0 text45 dist/default/production\MPLAB.production.o
+__Ltext46 0 0 ABS 0 text46 dist/default/production\MPLAB.production.o
+__ramtop F00 0 RAM 0 ramtop C:\Users\Can\AppData\Local\Temp\s890.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/production\MPLAB.production.o
+?___xxtofl 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__size_of_rampRun 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+___fladd@aexp E 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___fladd@bexp F 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___fltol@sign1 9 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\MPLAB.production.o
+__CFG_SOSCSEL$HIGH 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__size_of_SSD1306_Command 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_m_flags 68 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+__size_of_OLED_BatteryLevel 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__end_of_deviceRun 10DAE 0 CODE 0 text3 dist/default/production\MPLAB.production.o
+___fltol@f1 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\MPLAB.production.o
+__end_of__initialization 13E7A 0 CODE 0 cinit dist/default/production\MPLAB.production.o
+__size_of_deviceRun 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+OLED_Clear@height 8 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\MPLAB.production.o
+ADC_ReadmmHg@adcConv 4C 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\MPLAB.production.o
+OLED_SetCursor@column 5 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___lmul@product 9 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_font5x8 FBCD 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+OLED_Print@c 16 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_Print@l 18 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___lmul@multiplicand 5 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+___lldiv@quotient 9 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_TXSTAbits FAD 0 ABS 0 - dist/default/production\MPLAB.production.o
+_deviceRun 10000 0 CODE 0 text3 dist/default/production\MPLAB.production.o
+__size_of_UI_SetPress 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__pmediumconst F41C 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+_SSP2ADD F74 0 ABS 0 - dist/default/production\MPLAB.production.o
+_SSP2BUF F75 0 ABS 0 - dist/default/production\MPLAB.production.o
+__end_of_UI_Proceed 130C0 0 CODE 0 text21 dist/default/production\MPLAB.production.o
+__end_of_main 12736 0 CODE 0 text0 dist/default/production\MPLAB.production.o
+OLED_Clear@i B 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_Clear@j C 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_Clear@k 9 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_Clear@x A 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_Clear@y 6 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+deviceRun@i 55 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+_PORTA F80 0 ABS 0 - dist/default/production\MPLAB.production.o
+_PORTB F81 0 ABS 0 - dist/default/production\MPLAB.production.o
+_PORTC F82 0 ABS 0 - dist/default/production\MPLAB.production.o
+_SPBRG FB0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_TRISA F92 0 ABS 0 - dist/default/production\MPLAB.production.o
+_TRISB F93 0 ABS 0 - dist/default/production\MPLAB.production.o
+_TRISC F94 0 ABS 0 - dist/default/production\MPLAB.production.o
+__CFG_CP0$OFF 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\MPLAB.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\MPLAB.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\MPLAB.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\MPLAB.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\MPLAB.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\MPLAB.production.o
+_batt_level FEE3 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+__size_of_OLED_PrintLong 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+_m_col 5F 0 COMRAM 1 bssCOMRAM dist/default/production\MPLAB.production.o
+_m_row 69 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+_setPressureLevels 13214 0 CODE 0 text1 dist/default/production\MPLAB.production.o
+_uData 6A 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+_font8x16_terminal F41D 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+__end_of_ADC_BatteryLevel 12F62 0 CODE 0 text12 dist/default/production\MPLAB.production.o
+softStart@st 2 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__initialization 13E6C 0 CODE 0 cinit dist/default/production\MPLAB.production.o
+___xxtofl@sign 9 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__pbssBANK0 60 0 BANK0 1 bssBANK0 dist/default/production\MPLAB.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\MPLAB.production.o
+___wmul@product 5 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__size_of_ADC_BatteryLevel 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\MPLAB.production.o
+_digits16x16 FDA3 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+_digits16x24 F9ED 0 MEDIUMCONST 0 mediumconst dist/default/production\MPLAB.production.o
+_ADC_ReadmmHg 12736 0 CODE 0 text38 dist/default/production\MPLAB.production.o
+__end_of_Pressure_Calibrate 13E9A 0 CODE 0 text37 dist/default/production\MPLAB.production.o
+OLED_Write@c 14 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+OLED_Write@i 15 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\MPLAB.production.o
+__end_of_checkBatt 13D80 0 CODE 0 text6 dist/default/production\MPLAB.production.o
+__end_of_OLED_WriteDigit 112B2 0 CODE 0 text25 dist/default/production\MPLAB.production.o
+__end_of_rampRun 12C50 0 CODE 0 text2 dist/default/production\MPLAB.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\MPLAB.production.o
+deviceRun@pressureVal 59 0 COMRAM 1 cstackCOMRAM dist/default/production\MPLAB.production.o
+__size_of_checkBatt 0 0 ABS 0 - dist/default/production\MPLAB.production.o
+__Hintcode 0 0 CODE 0 intcode dist/default/production\MPLAB.production.o
+_UI_RampProceed 13C1E 0 CODE 0 text20 dist/default/production\MPLAB.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text3 0 10000 10000 3EDA 1
+cstackCOMRAM 1 1 1 5F 1
+reset_vec 0 0 0 4 1
+bssBANK0 1 60 60 2F 1
+mediumconst 0 F41C F41C BE4 1
+config 0 1FFF8 1FFF8 8 1
+# OTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by OTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
